@@ -48,12 +48,15 @@ async def predict_yolo(image: UploadFile = File(...)):
     for score, label, box in zip(results["scores"], results["labels"], results["boxes"]):
         box = [round(i, 2) for i in box.tolist()]
         label_name = model.config.id2label[label.item()]
+        
         # Create a Rectangle patch
         rect = patches.Rectangle((box[0], box[1]), box[2]-box[0], box[3]-box[1], linewidth=2, edgecolor='r', facecolor='none')
+        
         # Add the patch to the Axes
         ax.add_patch(rect)
         ax.text(box[0], box[1], f'{label_name} {round(score.item(), 3)}', color='black', fontsize=8, bbox=dict(facecolor='yellow', alpha=0.5))
-    plt.axis('off')  # Turn off axis
+        
+    plt.axis('off')
     plt.tight_layout()
 
     # Save the plot as bytes
@@ -62,7 +65,7 @@ async def predict_yolo(image: UploadFile = File(...)):
     plot_byte_arr.seek(0)
     plt.close()
 
-    return Response(content=plot_byte_arr.read(), media_type="image/jpeg")  # Return the image as response
+    return Response(content=plot_byte_arr.read(), media_type="image/jpeg")
 
 @app.get("/")
 def read_root():
