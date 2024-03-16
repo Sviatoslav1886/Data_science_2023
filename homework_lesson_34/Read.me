@@ -1,12 +1,17 @@
+## Object Detection Web Application with FastAPI and YOLOS
+
 This application is a web application built using FastAPI that uses a machine learning model (the application uses the pre-trained model 'hustvl/yolos-tiny') for object detection of images using YOLOS (You Only Look One-time Object Detection System). It provides the ability to submit images through a web interface and receive images with frames overlaid on them showing detected objects.
 
-### Main Components:
+### Main Components
+
 - **FastAPI**: Used to create a web interface and process HTTP requests.
 - **YOLOS model for object detection**: A model using YOLOS that is implemented through the transformers library.
 - **pydantic BaseModel**: Defines the structure of the input data, in this case, the image that is passed as input.
-- **Prediction processing function (predict_yolo)**: Receives the uploaded image, performs YOLOS object detection on it, overlays the image with borders and labels showing the detection results, and returns the modified image.
-- **Root path processing function (read_root)**: A simple function that returns a JSON object containing the words "Hello" and "World".
+- **Prediction processing function (`predict_yolo`)**: Receives the uploaded image, performs YOLOS object detection on it, overlays the image with borders and labels showing the detection results, and returns the modified image.
+- **Root path processing function (`read_root`)**: A simple function that returns a JSON object containing the words "Hello" and "World".
 - **Matplotlib and PIL**: Used for manipulating and visualising images.
 - **uvicorn**: Used to launch a web server with a FastAPI application.
+
+### Usage
 
 Once the server is running, you can make a POST request to the `/predict/` path by sending an image, and the application will return an image with borders and labels showing the detected objects.
