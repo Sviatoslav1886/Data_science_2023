@@ -2,4 +2,4 @@
 Data science camp 2023
 
 
-### linkedin: https://www.linkedin.com/in/sviatoslav-krushelnytskyi-18067124b/
+### You can find my linkedin [here](https://www.linkedin.com/in/sviatoslav-krushelnytskyi-18067124b/).
