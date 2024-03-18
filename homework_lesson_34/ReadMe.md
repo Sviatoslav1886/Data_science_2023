@@ -7,7 +7,7 @@ This application is a web application built using FastAPI that utilizes a machin
 
 ### Architecture
 The service implemented as an API. List of the available endpoits:
-- '''/''' 
+  / - index endpoint with server health-check.
 
 
 - **FastAPI**: Utilized for creating a web interface and handling HTTP requests.
