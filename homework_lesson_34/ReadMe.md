@@ -4,6 +4,12 @@
 This application is a web application built using FastAPI that utilizes a machine learning model, specifically the pre-trained model 'hustvl/yolos-tiny', for object detection of images using YOLOS (You Only Look One-time Object Detection System). It allows users to submit images through a web interface and receive images with frames overlaid on them showing detected objects.
 
 ## Main Components
+
+### Architecture
+The service implemented as an API. List of the available endpoits:
+- '''/''' 
+
+
 - **FastAPI**: Utilized for creating a web interface and handling HTTP requests.
 - **YOLOS model for object detection**: Implements a YOLOS model using the transformers library.
 - **pydantic BaseModel**: Defines the structure of the input data, specifically the image passed as input.
