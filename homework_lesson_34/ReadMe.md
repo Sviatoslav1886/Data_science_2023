@@ -25,7 +25,7 @@ You can find the YOLO S model [here](https://huggingface.co/hustvl/yolos-tiny).
 
 ### How to start
 To run the model, you need to download all the files from requirements.txt. To do this, go to the folder where this code is saved. After that run:
-* uvicorn api_yolo:app --reload --port 8000
+* pip install -r requirements.txt
 * uvicorn api_yolo:app --reload --port 8000
 ## Usage
 Once the server is running, users can make a POST request to the /predict/ path by sending an image, and the application will return an image with borders and labels displaying the detected objects.
