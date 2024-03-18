@@ -12,7 +12,7 @@
 * 9 [Neural network](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_9.ipynb) only numpy
 * 10 [Decision trees](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_10.ipynb)
 * 12 [Supervised ML cover](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_12.ipynb)
-* 13 [Clustering](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_13.ipynb)
+* 13 [Clustering](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_13.ipynb) DBSCAN
 14. [Decision trees](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_10.ipynb)
 15. [Decision trees](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_10.ipynb)
 16. [Decision trees](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_10.ipynb)
