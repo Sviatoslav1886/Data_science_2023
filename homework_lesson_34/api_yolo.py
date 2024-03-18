@@ -11,14 +11,14 @@ app = FastAPI()
 
 class ImageInput(BaseModel):
     file: UploadFile
+    
+model = YolosForObjectDetection.from_pretrained('hustvl/yolos-tiny')
+image_processor = YolosImageProcessor.from_pretrained("hustvl/yolos-tiny")
 
 @app.post("/predict/")
 async def predict_yolo(image: UploadFile = File(...)):
     image_data = await image.read()
     img = Image.open(io.BytesIO(image_data))
-
-    model = YolosForObjectDetection.from_pretrained('hustvl/yolos-tiny')
-    image_processor = YolosImageProcessor.from_pretrained("hustvl/yolos-tiny")
 
     inputs = image_processor(images=img, return_tensors="pt")  # Use the PIL Image object directly
     outputs = model(**inputs)
