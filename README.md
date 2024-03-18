@@ -9,6 +9,6 @@
 6. [Linear models](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_6.ipynb)
 7. [Logistic regression](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_7.ipynb)
 8. [Support Vector machine](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_8.ipynb)
-9. [Neural network](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_9.ipynb)
-10. [Decision tree](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_10.ipynb)
+9. [Neural network](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_9.ipynb) only numpy
+10. [Decision trees](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_10.ipynb)
 
