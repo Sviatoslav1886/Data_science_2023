@@ -14,7 +14,7 @@ The service implemented as an API. List of the available endpoits:
 ### Localization model
 You can find the YOLO S model [here](https://huggingface.co/hustvl/yolos-tiny).
 
-
+### The stack of technologies used: 
 - **FastAPI**: Utilized for creating a web interface and handling HTTP requests.
 - **YOLOS model for object detection**: Implements a YOLOS model using the transformers library.
 - **pydantic BaseModel**: Defines the structure of the input data, specifically the image passed as input.
