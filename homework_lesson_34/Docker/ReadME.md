@@ -19,3 +19,7 @@ http://localhost:8000/
 
 ## Screen that show how it works:
 ![Screenshot](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_34/Docker/screen_that_works_fine.jpg)
+
+
+## Screen that show logs:
+![Screenshot](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_34/Docker/screen_that_logs_work_fine.jpg)
