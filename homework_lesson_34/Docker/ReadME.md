@@ -17,5 +17,5 @@ You can find your application at:
 http://localhost:8000/
 ```
 
-Screen:
-![Screenshot](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_34/Docker/screen.That.jpg)
+Screen that show how it works:
+![Screenshot](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_34/Docker/screen_that_works_fine.jpg)
