@@ -17,8 +17,6 @@ You can find your application at:
 http://localhost:8000/
 ```
 
-
-Screens:
-`<https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_34/Docker/screen.That.jpg>`
+![Screenshot](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_34/Docker/screen.That.jpg)
 
 У цьому коді я вставив зображення під заголовком "Screenshots" за допомогою тегу  у Markdown. Тепер при перегляді вашого файлу README.md зображення буде відображено під заголовком "Screenshots".
