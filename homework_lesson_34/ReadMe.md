@@ -28,7 +28,9 @@ To run the model, you need to download all the files from requirements.txt. To d
 * ```
   pip install -r requirements.txt
   ```
-* ```uvicorn api_yolo:app --reload --port 8000```
+* ```
+  uvicorn api_yolo:app --reload --port 8000
+  ```
 ## Usage
 Once the server is running, users can make a POST request to the /predict/ path by sending an image, and the application will return an image with borders and labels displaying the detected objects.
 
