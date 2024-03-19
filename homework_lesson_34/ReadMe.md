@@ -8,8 +8,8 @@ This application is a web application built using FastAPI that utilizes a machin
 ### Architecture
 The service implemented as an API. List of the available endpoits:
 
-*  '/' - index endpoint with server health-check.
-*  '/predict/' - endpoint for classification image using image from user.
+*  ```/``` - index endpoint with server health-check.
+*  ```/predict/``` - endpoint for classification image using image from user.
 
 ### Localization model
 You can find the YOLO S model [here](https://huggingface.co/hustvl/yolos-tiny).
