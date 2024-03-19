@@ -6,11 +6,13 @@
 ```bash
 docker build -t api-yolo:latest .
 ```
-3. After that run the Docker container using following command:
+## Run the Docker container
+1. Run the Docker container using following command:
 ```bash
 docker run -p 8000:8000 api-yolo:latest
 ```
-4. Access the application at 
+## Access the application
+1. You can find your application at:
 ```https
 http://localhost:8000/
 ```
