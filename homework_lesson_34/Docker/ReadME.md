@@ -19,4 +19,4 @@ http://localhost:8000/
 
 
 Screens:
-[](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_34/Docker/screen.That.jpg)
+(https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_34/Docker/screen.That.jpg)
