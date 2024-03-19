@@ -29,3 +29,17 @@ To run the model, you need to download all the files from requirements.txt. To d
 * uvicorn api_yolo:app --reload --port 8000
 ## Usage
 Once the server is running, users can make a POST request to the /predict/ path by sending an image, and the application will return an image with borders and labels displaying the detected objects.
+
+
+### Screen how it's work:
+![Screenshot_1](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_34/screenshots_of_how_it_works/screen_1.jpg)
+![Screenshot_2](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_34/screenshots_of_how_it_works/screen_2.jpg)
+![Screenshot_3](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_34/screenshots_of_how_it_works/screen_3.jpg)
+![Screenshot_4](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_34/screenshots_of_how_it_works/screen_4.jpg)
+![Screenshot_5](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_34/screenshots_of_how_it_works/screen_5.jpg)
+
+
+### Logs:
+![Logs](https://github.com/Sviatoslav1886/Data_science_2023/blob/main/homework_lesson_34/screenshots_of_how_it_works/logs.jpg)
+
+
